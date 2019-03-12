@@ -4,8 +4,9 @@ body {
   /* background-color: aquamarine; */
   background: linear-gradient(rgb(36, 138, 124) 10%, rgb(88, 223, 182) 40%,lightblue 70%, aquamarine 85%,
   rgb(36, 138, 124));
-  
+  font-family: 'Tauri';font-size: 16px;
 }
+
 .starter-template {
   padding: 3em 1.5em 5em;
   text-align: center;
