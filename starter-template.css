@@ -1,25 +1,63 @@
-body {
-  padding-top: 3em;
-  padding-bottom: 5em;
-  /* background-color: aquamarine; */
-  background: linear-gradient(rgb(36, 138, 124) 10%, rgb(88, 223, 182) 40%,lightblue 70%, aquamarine 85%,
-  rgb(36, 138, 124));
-  font-family: 'Tauri';font-size: 16px;
+
+.bg-danger{
+  background-color: red;  
+} */
+
+
+
+* {
+  box-sizing: border-box;
 }
 
-.starter-template {
-  padding: 3em 1.5em 5em;
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 45%;
+  padding: 10px;
   text-align: center;
-}
-.container{
-  padding: 20px;
+  border-radius: 10px;
+  margin: 2.5%;
   
 }
 
-/* .nav-link{
-background-color: red; */
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #9ca2a3;
+  padding: 20px;
+  
+  width: 95%;
+  margin: auto;
+
+  text-align: center;
+  
+}
+.navbar-container {
+  border-radius: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 95%;
+  margin: auto;
+
 
 }
-.bg-danger{
-  background-color: red;  
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
 }
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 60%;
+  }
