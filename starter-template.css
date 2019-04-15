@@ -42,8 +42,11 @@
   border-radius: 5px;
   padding-left: 20px;
   padding-right: 20px;
-  width: 95%;
+  width: 50%;
   margin: auto;
+  display: inline-block;
+  /* margin-top: 50px; */
+  margin-left:12.5%;
 
 
 }
