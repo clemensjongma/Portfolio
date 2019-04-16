@@ -1,8 +1,4 @@
 
-.bg-danger{
-  background-color: red;  
-} */
-
 
 
 * {
@@ -28,25 +24,23 @@
 }
 
 .container {
-  border-radius: 5px;
+  
   background-color: #9ca2a3;
   padding: 20px;
   
-  width: 95%;
-  margin: auto;
+  width: 60%;
+  /* margin: auto; */
 
   text-align: center;
   
 }
 .navbar-container {
-  border-radius: 5px;
-  padding-left: 20px;
-  padding-right: 20px;
-  width: 50%;
-  margin: auto;
+ 
+  width: 60%;
+  
   display: inline-block;
   /* margin-top: 50px; */
-  margin-left:12.5%;
+  margin-left:20%;
 
 
 }
