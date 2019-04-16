@@ -1,4 +1,6 @@
-
+body {
+  background-color: beige
+}
 
 
 * {
@@ -13,6 +15,7 @@
   text-align: center;
   border-radius: 10px;
   margin: 2.5%;
+  background-color: #ccccbb;
   
 }
 
@@ -26,7 +29,7 @@
 .container {
   
   background-color: #9ca2a3;
-  padding: 20px;
+  padding-top: 20px;
   
   width: 60%;
   /* margin: auto; */
@@ -37,11 +40,11 @@
 .navbar-container {
  
   width: 60%;
-  
+  background-color: #666677;
   display: inline-block;
   /* margin-top: 50px; */
   margin-left:20%;
-
+  
 
 }
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
@@ -58,3 +61,19 @@ img {
     width: 60%;
     height: 60%;
   }
+
+/* .navbar-nav.mr-auto.justify-content-lg-center ul{
+  background-color: blue;
+}
+.navbar.navbar-expand-lg.navbar-dark a{
+  background-color: blue;
+}
+.collapse.navbar-collapse{
+background-color: blue;
+
+} */
+/* #navbarSupportedContent{
+background-color: red; */
+
+}
+}
